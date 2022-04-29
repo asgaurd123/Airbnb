@@ -1,0 +1,69 @@
+.banner {
+    height: 60vh;
+    position: relative;
+    background-image: url("https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aG90ZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.banner__info>button {
+    background: #ff5b79fa;
+    color: white;
+
+
+}
+
+.btn {
+    height: 36px;
+    font-size: 17px;
+    width: 142px;
+    border-radius: 4%;
+    background-color: white;
+    color: #f8748cfa;
+    border: none;
+}
+
+.banner__info>button:hover {
+    background-color: white;
+    color: #ff5b79fa;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.banner__info {
+    background-color: black;
+    color: white;
+    padding: 15vh 50px 50px 40px;
+    width: 300px;
+}
+
+
+.banner__search {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__search button {
+    width: 100%;
+    border: 0.7px solid rgb(39, 39, 39);
+}
+
+
+
+.search>button {
+    position: absolute;
+    left: 0;
+    top: 480px;
+    background-color: #ff5b79fa;
+    width: 579px;
+    text-transform: inherit !important;
+    color: white;
+}
+
+.search>button:hover {
+    background-color: white;
+    color: #f8748cfa;
+}
