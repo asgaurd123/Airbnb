@@ -19,8 +19,8 @@
     font-size: 17px;
     width: 142px;
     border-radius: 4%;
-    background-color: white;
-    color: #f8748cfa;
+    background-color: white !important;
+    color: #f8748cfa !important;
     border: none;
 }
 

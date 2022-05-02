@@ -5,10 +5,12 @@ import './Home.css'
 import Banner from './Banner'
 
 
+
+
 function Home() {
     return (
         <div className='home'>
-            <Header />
+
             <Banner />
             <div className="home__section">
                 <Card
@@ -52,6 +54,7 @@ function Home() {
                     description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, repellat?
                     " />
             </div>
+            
 
         </div>
     )
